@@ -1,0 +1,5 @@
+<ul>
+    <li (click)="select(item)" *ngFor="let item of contactList; let i = index" [attr.data-index]="i">
+        {{item.name}}
+    </li>
+</ul>
